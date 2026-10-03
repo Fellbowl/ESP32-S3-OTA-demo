@@ -7,7 +7,7 @@ import ssl
 PORT = 8070
 
 handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory="build")
-httpd = http.server.ThreadingHTTPServer(("192.168.5.105", PORT), handler)
+httpd = http.server.ThreadingHTTPServer(("192.168.1.0", PORT), handler)
 
 ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
 ctx.maximum_version = ssl.TLSVersion.TLSv1_2   # compatibilidad con mbedTLS del ESP32

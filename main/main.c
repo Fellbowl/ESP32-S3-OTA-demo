@@ -25,9 +25,9 @@
 #include "led_strip.h"
 
 /* ======================= CONFIGURACIÓN ======================= */
-#define WIFI_SSID   "Jparenas_2.4g"
-#define WIFI_PASS   "SPV55158187"
-#define OTA_URL     "https://192.168.5.105:8070/esp32s3_ota_demo.bin"  // IP de tu PC
+#define WIFI_SSID   "ESP32-OTA-DEMO"
+#define WIFI_PASS   "12345678"
+#define OTA_URL     "https://192.168.1.0:8070/esp32s3_ota_demo.bin"  // IP de tu PC
 
 #define LED_GPIO    48   // WS2812 de la SuperMini (si no enciende, prueba otro pin de tu variante)
 #define BOOT_GPIO   0
