@@ -1,0 +1,21 @@
+{
+    "idf.currentSetup": "/Users/aulasingenieria/.espressif/v6.1/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.customExtraVars": {
+        "IDF_PATH": "/Users/aulasingenieria/.espressif/v6.1/esp-idf",
+        "IDF_TOOLS_PATH": "/Users/aulasingenieria/.espressif",
+        "IDF_PYTHON_ENV_PATH": "/Users/aulasingenieria/.espressif/python_env/idf6.1_py3.13_env",
+        "OPENOCD_USB_ADAPTER_LOCATION": "20-3.1",
+        "IDF_TARGET": "esp32s3"
+    },
+    "clangd.path": "/Users/aulasingenieria/.espressif/tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin/clangd",
+    "clangd.arguments": [
+      "--background-index",
+      "--query-driver=**",
+      "--compile-commands-dir=/Users/aulasingenieria/Documents/ESP32/esp32s3_ota_demo/build"
+    ],
+    "idf.flashType": "JTAG",
+    "idf.port": "/dev/tty.usbmodem143101"
+}

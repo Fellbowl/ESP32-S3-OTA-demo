@@ -1,0 +1,5 @@
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=/Users/aulasingenieria/Documents/ESP32/esp32s3_ota_demo/build/specs/picolibc.specs"
